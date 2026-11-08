@@ -20,6 +20,35 @@ Parametric 3D-printable workshop bin label generator powered by [`build123d`](ht
 
 ---
 
+## Prerequisites & Installation
+
+### Prerequisites
+
+- **Python `3.10` – `3.12` (64-bit)**: Required by the OpenCASCADE (`cadquery-ocp`) binary wheels bundled with `build123d`.
+- **[`build123d`](https://github.com/gumyr/build123d) (`>= 0.13.0`)**: Python BREP CAD framework used for 2D/3D geometry, OpenCASCADE STEP export, multi-body `.3mf` meshing (`lib3mf`), and `.svg` icon parsing (`svgelements`).
+- **`pytest` (`>= 8.0.0`)**: *(Optional)* Used to run the 159-test unit and regression suite.
+- **System Fonts**: Defaults to `Arial` on Windows and `Liberation Sans` on Linux/macOS (configurable per label via `font_family`).
+
+### Installation
+
+```powershell
+# Clone the repository
+git clone https://github.com/brentbiggs/BinForge.git
+cd BinForge
+
+# Create and activate a virtual environment (Windows PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# Or on Linux / macOS:
+# python3 -m venv .venv && source .venv/bin/activate
+
+# Install build123d and pytest
+pip install -r requirements.txt
+```
+
+---
+
 ## Quick Start
 
 ```powershell

@@ -37,6 +37,13 @@ from icon_library import (
     register_icon,
 )
 
+VERSION_FILE = Path(__file__).resolve().parent / "VERSION"
+__version__ = (
+    VERSION_FILE.read_text(encoding="utf-8").strip()
+    if VERSION_FILE.is_file()
+    else "0.1.0"
+)
+
 MESH_LINEAR_DEFLECTION = 0.02
 MESH_ANGULAR_DEFLECTION = 0.20
 
@@ -797,6 +804,13 @@ def lint_binforge_inventory(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="BinForge: Generate 3D-printable workshop bin labels (Cullenect, Akro-Mils, Gladiator)."
+    )
+    parser.add_argument(
+        "-V",
+        "--version",
+        action="version",
+        version=f"BinForge {__version__}",
+        help="Show BinForge version and exit.",
     )
     parser.add_argument(
         "-i",

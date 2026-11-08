@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 20 20">
+  <!-- Left lead and plate (simple non-self-intersecting contour) -->
+  <path d="M -9 -1.5 L -4.8 -1.5 L -4.8 -8 L -2.0 -8 L -2.0 8 L -4.8 8 L -4.8 1.5 L -9 1.5 Z" fill="#000"/>
+  <!-- Right lead and plate -->
+  <path d="M 9 -1.5 L 4.8 -1.5 L 4.8 -8 L 2.0 -8 L 2.0 8 L 4.8 8 L 4.8 1.5 L 9 1.5 Z" fill="#000"/>
+</svg>

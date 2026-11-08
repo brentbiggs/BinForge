@@ -1,0 +1,148 @@
+{
+  "aliases": {
+    "cullenect": "cullenect_1u",
+    "akro": "akro_30220",
+    "gladiator": "gladiator_small"
+  },
+  "blanks": {
+    "cullenect_1u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 1U snap-in label (42 mm bin)",
+      "plate_w": 36.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "cullenect_2u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 2U snap-in label (84 mm bin)",
+      "plate_w": 78.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "cullenect_3u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 3U snap-in label (126 mm bin)",
+      "plate_w": 120.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "cullenect_4u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 4U snap-in label (168 mm bin; max for 180 mm beds)",
+      "plate_w": 162.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "cullenect_5u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 5U snap-in label (210 mm bin; max for 220 mm beds)",
+      "plate_w": 204.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "cullenect_6u": {
+      "style": "cullenect_groove",
+      "description": "Gridfinity Cullenect 6U snap-in label (252 mm bin; max for 256 mm beds)",
+      "plate_w": 246.0,
+      "plate_h": 11.0,
+      "plate_z": 1.20,
+      "corner_r": 1.50,
+      "latch_inset": 0.20,
+      "latch_z_pos": 0.40,
+      "latch_h": 0.40
+    },
+    "akro_30210": {
+      "style": "akro_slot",
+      "description": "Akro-Mils 30210 Small Bin slide-in card slot",
+      "plate_w": 29.0,
+      "plate_h": 13.0,
+      "plate_z": 1.40,
+      "corner_r": 1.00,
+      "wing_w": 1.60,
+      "wing_z": 0.80
+    },
+    "akro_30220": {
+      "style": "akro_slot",
+      "description": "Akro-Mils 30220 / 30224 Medium Bin slide-in card slot",
+      "plate_w": 50.0,
+      "plate_h": 22.0,
+      "plate_z": 1.40,
+      "corner_r": 1.50,
+      "wing_w": 1.80,
+      "wing_z": 0.80
+    },
+    "akro_30230": {
+      "style": "akro_slot",
+      "description": "Akro-Mils 30230 / 30235 Large Bin slide-in card slot",
+      "plate_w": 50.0,
+      "plate_h": 25.0,
+      "plate_z": 1.40,
+      "corner_r": 1.50,
+      "wing_w": 1.80,
+      "wing_z": 0.80
+    },
+    "akro_30240": {
+      "style": "akro_slot",
+      "description": "Akro-Mils 30240 / 30250 Extra-Large Bin slide-in card slot",
+      "plate_w": 75.0,
+      "plate_h": 32.0,
+      "plate_z": 1.50,
+      "corner_r": 2.00,
+      "wing_w": 2.00,
+      "wing_z": 0.80
+    },
+    "gladiator_small": {
+      "style": "gladiator_slot",
+      "description": "Gladiator Small Hang Bin (GAWB06BK) slide-in slot with bottom detent",
+      "plate_w": 48.0,
+      "plate_h": 18.0,
+      "plate_z": 1.40,
+      "corner_r": 1.20,
+      "wing_w": 1.80,
+      "wing_z": 0.80,
+      "latch_inset": 0.30
+    },
+    "gladiator_medium": {
+      "style": "gladiator_slot",
+      "description": "Gladiator Medium Utility Bin slide-in slot with bottom detent",
+      "plate_w": 68.0,
+      "plate_h": 25.0,
+      "plate_z": 1.50,
+      "corner_r": 1.50,
+      "wing_w": 2.00,
+      "wing_z": 0.90,
+      "latch_inset": 0.35
+    },
+    "gladiator_large": {
+      "style": "gladiator_slot",
+      "description": "Gladiator Large Deep Hook Bin (GAWB01BK) slide-in slot with bottom detent",
+      "plate_w": 88.0,
+      "plate_h": 32.0,
+      "plate_z": 1.60,
+      "corner_r": 1.80,
+      "wing_w": 2.20,
+      "wing_z": 0.90,
+      "latch_inset": 0.40
+    }
+  }
+}

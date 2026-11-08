@@ -1,0 +1,45 @@
+{
+  "labels": [
+    {
+      "blank_type": "cullenect_1u",
+      "title": "10k Ohm",
+      "subtitle": "0805 SMD 1%",
+      "icon": "resistor"
+    },
+    {
+      "blank_type": "cullenect_1u",
+      "title": "100nF 50V",
+      "subtitle": "X7R Ceramic",
+      "icon": "capacitor"
+    },
+    {
+      "blank_type": "cullenect_2u",
+      "title": "10k Resistors",
+      "subtitle": "1/4W 1% Metal Film",
+      "icon": "resistor"
+    },
+    {
+      "blank_type": "cullenect_2u",
+      "title": "ESD Sensitive",
+      "subtitle": "CMOS / MOSFET Assortment",
+      "icon": "warning",
+      "target_title_h": 4.4,
+      "target_sub_h": 2.6
+    },
+    {
+      "blank_type": "cullenect_2u",
+      "title": "LiPo 1S 3.7V",
+      "subtitle": "High-Discharge Cells",
+      "icon": "warning",
+      "art_thickness": 0.60
+    },
+    {
+      "blank_type": "cullenect_3u",
+      "title": "RP2040 / ESP32-S3 Dev Boards",
+      "subtitle": "USB-C Qwiic / STEMMA QT Modules",
+      "icon": "none",
+      "target_title_h": 4.5,
+      "target_sub_h": 3.0
+    }
+  ]
+}

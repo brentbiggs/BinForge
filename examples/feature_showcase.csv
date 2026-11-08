@@ -1,0 +1,11 @@
+blank_type,title,subtitle,icon,target_title_h,target_sub_h,art_thickness
+cullenect_1u,M3 x 8,SHCS,bolt,4.2,2.8,0.40
+cullenect_1u,M3 Locknut,DIN 985,nut,4.2,2.8,0.40
+cullenect_1u,HV DANGER,240V AC Mains,warning,4.2,2.8,0.40
+cullenect_1u,FULL WIDTH,,none,4.6,2.8,0.40
+cullenect_1u,,SUBTITLE ONLY,none,4.2,3.4,0.40
+cullenect_1u,,,warning,4.2,2.8,0.40
+cullenect_2u,Auto-Scaling Long Title Test,Proportional O(1) Fit Checks 1/4W 1% @ #5,bolt,4.2,2.8,0.40
+cullenect_3u,3U Wide Storage Bin Header,120mm Multi-Slot Cullenect Label Plate,nut,4.5,3.0,0.40
+akro_30220,1/4-20 x 1",Hex Cap Grade 8,bolt,4.2,2.8,0.40
+gladiator_medium,M8 x 25 SHCS,Class 12.9 Alloy,bolt,4.2,2.8,0.40
